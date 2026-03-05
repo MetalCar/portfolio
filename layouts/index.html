@@ -41,7 +41,7 @@
     {{ $isEmp := in (lower $entry.company) "e.m.p." }}
     <article>
       <div class="timeline-head">
-        {{ with $entry.logo }}<img class="company-logo{{ if $isEmp }} company-logo-dark{{ end }}" src="{{ . | relURL }}" alt="Logo {{ $entry.company }}" loading="lazy">{{ end }}
+        {{ with $entry.logo }}<img class="company-logo{{ if $isEmp }} company-logo-dark{{ end }}" src="{{ strings.TrimPrefix "/" . | relURL }}" alt="Logo {{ $entry.company }}" loading="lazy">{{ end }}
         <div>
           <p class="period">{{ $entry.period }}</p>
           <h4>{{ $entry.title }}</h4>
