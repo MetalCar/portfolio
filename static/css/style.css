@@ -1,0 +1,260 @@
+:root {
+  --bg: #282a36;
+  --bg-elev: #303446;
+  --fg: #f8f8f2;
+  --muted: #bd93f9;
+  --cyan: #8be9fd;
+  --green: #50fa7b;
+  --orange: #ffb86c;
+  --red: #ff5555;
+  --border: #44475a;
+  --maxw: 980px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Fira Code", "JetBrains Mono", monospace;
+  background:
+    radial-gradient(circle at 15% 10%, #3a3f5a 0%, transparent 40%),
+    radial-gradient(circle at 90% 20%, #3b2f4e 0%, transparent 35%),
+    var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--cyan);
+}
+
+a:hover {
+  color: var(--green);
+}
+
+.container {
+  width: min(100% - 2rem, var(--maxw));
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px);
+  background: rgba(40, 42, 54, 0.85);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.8rem 0;
+}
+
+.brand {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--orange);
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.hero {
+  padding: 5rem 0 2rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.hero-photo-wrap {
+  justify-self: end;
+}
+
+.hero-photo {
+  width: 170px;
+  height: 170px;
+  border-radius: 1rem;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  background: #1f2231;
+}
+
+.hero h1 {
+  margin-bottom: 0.2rem;
+  font-size: clamp(1.9rem, 5vw, 3rem);
+}
+
+.hero h2 {
+  margin-top: 0;
+  color: var(--muted);
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+
+.lead {
+  max-width: 65ch;
+}
+
+.meta {
+  color: #b9b9c9;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 0.8rem;
+  text-decoration: none;
+  background: var(--muted);
+  color: #0f1018;
+  padding: 0.6rem 1rem;
+  border-radius: 0.45rem;
+  font-weight: 700;
+}
+
+.card {
+  margin: 1rem auto;
+  padding: 1.25rem;
+  background: linear-gradient(165deg, rgba(48, 52, 70, 0.95), rgba(40, 42, 54, 0.95));
+  border: 1px solid var(--border);
+  border-radius: 0.8rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tags span {
+  background: #1f2231;
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  padding: 0.25rem 0.55rem;
+}
+
+.timeline {
+  display: grid;
+  gap: 1rem;
+}
+
+.timeline article {
+  border-left: 3px solid var(--muted);
+  padding-left: 0.9rem;
+}
+
+.timeline-head {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.company-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 0.55rem;
+  border: 1px solid var(--border);
+  background: #ffffff;
+  object-fit: contain;
+  padding: 0.2rem;
+  flex-shrink: 0;
+}
+
+.company-logo-dark {
+  background: #1f2231;
+  padding: 0.1rem;
+}
+
+.period {
+  margin-bottom: 0.15rem;
+  color: var(--orange);
+}
+
+.company {
+  color: #c8c8d7;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.contact-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  text-decoration: none;
+}
+
+.contact-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+  background: #1f2231;
+  border: 1px solid var(--border);
+}
+
+.contact-icon svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  fill: var(--green);
+}
+
+.legal {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.site-footer {
+  margin-top: 2rem;
+  border-top: 1px solid var(--border);
+  padding: 1.2rem 0;
+  color: #c2c2d0;
+}
+
+@media (max-width: 680px) {
+  .hero {
+    padding-top: 3.2rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-photo-wrap {
+    justify-self: start;
+  }
+
+  nav {
+    gap: 0.65rem;
+    font-size: 0.92rem;
+  }
+}

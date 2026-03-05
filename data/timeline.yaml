@@ -1,0 +1,79 @@
+- period: "seit 01/2025"
+  title: "Teammanager Web Development"
+  company: "neumeier AG"
+  logo: "/img/companies/neumeier.png"
+  details:
+    - "Leitung und Weiterentwicklung des Web-Development-Bereichs"
+    - "Steuerung technischer Umsetzung und Team-Prozesse"
+    - "Qualitätsfokus in Entwicklung und Auslieferung"
+
+- period: "seit 07/2019"
+  title: "Freiberuflicher Web-Entwickler"
+  company: "Carmine D'Amico Web Solutions"
+  logo: "/img/companies/cdamico-web-solutions.svg"
+  details:
+    - "Umsetzung individueller Web-Projekte für unterschiedliche Kunden"
+    - "Konzeption, Entwicklung und Betreuung von Webanwendungen"
+    - "Technische Beratung und pragmatische Lösungen"
+
+- period: "01/2023 - 12/2024"
+  title: "Full-Stack Developer"
+  company: "neumeier AG"
+  logo: "/img/companies/neumeier.png"
+  details:
+    - "Entwicklung und Pflege von Full-Stack-Webanwendungen"
+    - "Umsetzung technischer Features im Frontend und Backend"
+
+- period: "07/2020 - 12/2022"
+  title: "Programmierer / Webentwicklung"
+  company: "agentur fenzl | Werbeagentur"
+  logo: "/img/companies/agentur-fenzl.png"
+  details:
+    - "Umsetzung von Webprojekten in enger Abstimmung mit Kreativ- und Projektteams"
+    - "Weiterentwicklung bestehender Anwendungen und Websites"
+
+- period: "04/2019 - 06/2020"
+  title: "Web-Entwickler"
+  company: "DealerCenter Digital GmbH"
+  logo: "/img/companies/dealercenter-digital.ico"
+  details:
+    - "Entwicklung und Optimierung webbasierter Lösungen"
+
+- period: "12/2017 - 03/2019"
+  title: "Webentwickler"
+  company: "Arnulf Betzold GmbH"
+  logo: "/img/companies/betzold.png"
+  details:
+    - "Entwicklung und Pflege von Webanwendungen im Unternehmensumfeld"
+
+- period: "01/2017 - 11/2017"
+  title: "Mobile App-Entwickler"
+  company: "E.M.P. Merchandising Handelsgesellschaft mbH"
+  logo: "/img/companies/emp.svg"
+  details:
+    - "Entwicklung mobiler Lösungen im E-Commerce-Umfeld"
+    - "Technische Umsetzung und Weiterentwicklung bestehender App-Features"
+
+- period: "08/2013 - 12/2016"
+  title: "WEB-Developer"
+  company: "E.M.P. Merchandising Handelsgesellschaft mbH"
+  logo: "/img/companies/emp.svg"
+  details:
+    - "Entwicklung und Betrieb von Web-Funktionen für Shop und Prozesse"
+    - "Kontinuierliche Optimierung von Frontend und Backend-Komponenten"
+
+- period: "06/2011 - 07/2013"
+  title: "Web-Entwickler"
+  company: "ticket. international GmbH & Co. KG"
+  logo: "/img/companies/ticket-international.png"
+  details:
+    - "Mitarbeit an webbasierten Ticketing- und Plattformfunktionen"
+    - "Umsetzung technischer Anforderungen im Produktteam"
+
+- period: "bis 06/2011"
+  title: "Auszubildender Fachinformatiker Anwendungsentwicklung"
+  company: "ticket. international GmbH & Co. KG"
+  logo: "/img/companies/ticket-international.png"
+  details:
+    - "Ausbildungsschwerpunkt Anwendungsentwicklung"
+    - "Mitarbeit an produktiven Entwicklungsaufgaben"

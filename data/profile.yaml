@@ -1,0 +1,22 @@
+name: "Carmine D'Amico"
+role: "Full-Stack Developer"
+location: "Mallersdorf-Pfaffenberg, Deutschland"
+intro: "Ich entwickle moderne Web-Lösungen von Frontend bis Backend und verbinde technische Exzellenz mit pragmatischer Umsetzung im Team."
+photo: "https://github.com/MetalCar.png"
+summary:
+  - "Mehrjährige Erfahrung in Webentwicklung und Full-Stack-Projekten"
+  - "Aktuell Teammanager Web Development und parallel freiberuflich tätig"
+  - "Fokus auf wartbare Software, saubere Prozesse und produktive Teams"
+
+skills:
+  - "Full-Stack Development"
+  - "Webentwicklung"
+  - "Teamleitung"
+  - "Projektumsetzung"
+  - "Freiberufliche Entwicklung"
+
+contact:
+  email: "hello@cdamico.de"
+  github: "https://github.com/MetalCar"
+  linkedin: "https://www.linkedin.com/in/carmine-damico/"
+  xing: "https://www.xing.com/profile/Carmine_DAmico"

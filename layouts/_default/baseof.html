@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="/">{{ .Site.Title }}</a>
+      <nav>
+        <a href="/#about">About</a>
+        <a href="/#timeline">Lebenslauf</a>
+        <a href="/#contact">Kontakt</a>
+        <a href="/impressum/">Impressum</a>
+        <a href="/datenschutz/">Datenschutz</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ now.Format "2006" }} {{ (index .Site.Data.profile "name") }} - Full-Stack Developer</p>
+      <p><a href="/impressum/">Impressum</a> | <a href="/datenschutz/">Datenschutz</a></p>
+    </div>
+  </footer>
+</body>
+</html>

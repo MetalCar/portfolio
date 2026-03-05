@@ -1,0 +1,13 @@
+baseURL = "https://carmine-damico.de/"
+languageCode = "de-de"
+title = "Carmine D'Amico | Full-Stack Developer"
+defaultContentLanguage = "de"
+enableRobotsTXT = true
+
+[params]
+  description = "Portfolio von Carmine D'Amico, Full-Stack Developer"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
