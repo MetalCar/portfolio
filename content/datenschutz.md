@@ -36,7 +36,3 @@ Diese Website verwendet keine eigenen Tracking- oder Marketing-Cookies. Falls de
 ## 8. Externe Links
 
 Beim Besuch verlinkter externer Seiten gelten deren Datenschutzbestimmungen.
-
----
-
-Hinweis: Diese Datenschutzerklärung ist weiterhin ein Mustertext und sollte vor Veröffentlichung rechtlich geprüft werden.
