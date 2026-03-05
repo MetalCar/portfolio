@@ -41,7 +41,3 @@ git push
 ```
 
 Danach wird die Seite automatisch nach GitHub Pages ausgerollt.
-
-## Rechtlicher Hinweis
-
-Impressum/Datenschutz sind als Muster angelegt und müssen auf den realen Einzelfall angepasst werden.
