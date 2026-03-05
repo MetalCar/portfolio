@@ -8,8 +8,6 @@ Die wichtigsten Inhalte liegen in:
 
 - `data/profile.yaml` (Name, Rolle, Intro, Skills, Kontakt)
 - `data/timeline.yaml` (Lebenslauf-Stationen)
-- `content/impressum.md`
-- `content/datenschutz.md`
 
 ## Lokal starten mit Docker Compose
 
