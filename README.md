@@ -27,6 +27,21 @@ docker compose run --rm hugo
 
 Der statische Output liegt in `public/`.
 
+## Deployment mit GitHub Pages
+
+Der Workflow liegt in `.github/workflows/deploy-pages.yml` und deployed bei Push auf den Branch `release`.
+
+1. In GitHub unter `Settings > Pages` bei `Source` die Option `GitHub Actions` aktivieren.
+2. Neue Änderungen auf `release` pushen:
+
+```bash
+git checkout release
+git merge main
+git push
+```
+
+Danach wird die Seite automatisch nach GitHub Pages ausgerollt.
+
 ## Rechtlicher Hinweis
 
 Impressum/Datenschutz sind als Muster angelegt und müssen auf den realen Einzelfall angepasst werden.
