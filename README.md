@@ -29,14 +29,13 @@ Der statische Output liegt in `public/`.
 
 ## Deployment mit GitHub Pages
 
-Der Workflow liegt in `.github/workflows/deploy-pages.yml` und deployed bei Push auf den Branch `release`.
+Der Workflow liegt in `.github/workflows/deploy-pages.yml` und deployed bei Push auf den Branch `main`.
 
 1. In GitHub unter `Settings > Pages` bei `Source` die Option `GitHub Actions` aktivieren.
-2. Neue Änderungen auf `release` pushen:
+2. Neue Änderungen auf `main` pushen:
 
 ```bash
-git checkout release
-git merge main
+git checkout main
 git push
 ```
 
